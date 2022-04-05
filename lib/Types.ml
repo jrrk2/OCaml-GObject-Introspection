@@ -17,7 +17,6 @@
  *)
 
 open Ctypes
-open Stubs
 
 type argument_t
 let argument : argument_t union typ = union "GIArgument"

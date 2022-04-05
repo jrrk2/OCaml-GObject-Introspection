@@ -18,7 +18,6 @@
 
 (** Base_info — Base struct for all GITypelib structs *)
 open Ctypes
-open Stubs
 
 (** Base_info is the common base struct of all other *Info structs accessible
     through the Repository API. All other structs can be casted to a
